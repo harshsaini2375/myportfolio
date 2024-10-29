@@ -1,6 +1,15 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
+import { Montserrat } from 'next/font/google';
+
+const montserrat_init = Montserrat({
+  subsets:['latin'],
+  weight:['400'],
+  variable: '--font-Montserrat'
+});
+
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,8 +29,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
+    <html lang="en" >
+      <body  className={`${geistSans.variable} ${montserrat_init.variable} ${geistMono.variable} antialiased`} >
       <div className="main relative flex w-[99vw] h-[99vh]">
         
 

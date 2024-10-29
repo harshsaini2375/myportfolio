@@ -19,3 +19,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.montserrat{
+  font-family: var(--font-Montserrat);
+}
+.contactsvg {
+  stroke: black; /* Set the stroke color */
+  stroke-width: 3; /* Adjust the stroke width for boldness */
+}
