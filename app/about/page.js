@@ -5,9 +5,9 @@ const page = () => {
   return (
     <>
 
-      <div className="amain h-screen w-3/4 absolute left-[379px] overflow-x-hidden">
-        <h1 className="p-10 pl-20 text-5xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700">About me!</h1>
-        <div className="font-montserrat aboutcontent  text-gray-500  min-h-[80vh] h-fit  px-20 pb-10 ">
+      <div className="amain pt-20 md:pt-0 h-screen w-screen md:w-3/4 md:absolute left-[379px] overflow-x-hidden">
+        <h1 className="px-5 mb-5 md:mb-0 md:p-10 md:pl-20 text-5xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700">About me!</h1>
+        <div className="font-montserrat aboutcontent  text-gray-500  min-h-[80vh] h-fit px-5  md:px-20 pb-10 ">
           <p className="ist  text-2xl text-gray-500 mb-10 " >Hello! I'm Harsh Saini, a passionate web developer . Currently, I'm pursuing my undergraduate degree in Bachelor of Computer Application at the Maharshi Dayanand University Rohtak. 🎓</p>
           
           <h2 className=' text-[32px] text-black mb-2'>Skills and Interests</h2>
