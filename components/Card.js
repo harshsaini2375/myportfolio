@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Card = (props) => {
 
@@ -28,7 +29,7 @@ const Card = (props) => {
     <>
       <div className='card hover:bg-[#f3f7ff] w-[80%] md:w-[30%] h-[75vh] md:h-[64vh] border-2 border-slate-300 rounded-3xl  p-3 overflow-x-hidden overflow-y-hidden '>
         <div className="image border-2 border-slate-500 rounded-xl w-full h-40 overflow-hidden">
-          <img className='object-cover h-full w-full ' src={props.image ? props.image : "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221222184908/web-development1.png"} alt="projectimage" />
+        <Image height={900} width={900} className='object-cover h-full w-full ' src={props.image ? props.image : "/catimage.avif"} alt="projectimage" />
         </div>
         <h1 className="name font-extrabold text-2xl my-2">{props.name}</h1>
         <p className='  min-h-[90px] h-fit '>{props.description}</p>
