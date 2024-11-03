@@ -6,7 +6,7 @@ const Contactcard = (props) => {
     return (
         <>
             <Link className='h-fit' href={props.link} target="_blank" >
-                <div className='card hover:bg-[#f3f7ff] cursor-pointer border-slate-300 border-2 h-40 w-40 rounded-3xl md:mb-10 p-5'>
+                <div className='card hover:bg-[#f3f7ff] cursor-pointer border-slate-300 border-2 h-40 w-[150px] rounded-3xl md:mb-10 p-5'>
                     <div className="image  h-10 w-10 rounded-lg overflow-hidden"><Image height={900} width={900} className='h-full w-full object-cover' src={props.image} alt="twittersvg" /></div>
                     <div className="name  pb-0 pt-2">{props.name}</div>
                     <div className="username text-slate-500 text-sm">{props.username}</div>

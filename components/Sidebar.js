@@ -65,8 +65,8 @@ const Sidebar = () => {
         <>
             <div className="left  rounded-3xl border-[5px] md:border-[10px] border-white bg-[#618dea]  text-[#cedcf8] w-[100vw] md:w-1/4 h-[70px] md:h-[99vh] fixed top-0 left-0 md:block  flex">
 
-                <div className="up md:py-12 w-fit md:w-full md:mr-0 mr-3  md:flex flex-col justify-center items-center">
-                    <div className=" circle border-[1px] border-[#cedcf8] h-12 w-12 md:h-24 md:w-24 rounded-full ml-[6px] mt-[6px] md:m-0 md:mb-3 overflow-hidden"><Image height={900} width={900} className='h-fit w-fit object-cover'  src="/catimage.avif" alt="profilepic" /></div>
+                <div className="up md:py-12 w-fit md:w-full md:mr-0 mr-3  md:flex flex-col justify-center items-center ">
+                    <div className=" circle border-[1px]  border-[#cedcf8] h-12 w-12 md:h-24 md:w-24 rounded-full ml-[6px] mt-[6px] md:m-0 md:mb-3 overflow-hidden relative"><Image   className='h-fit w-fit object-contain' objectFit='cover' layout='fill' src="/newpp.jpg" alt="profilepic" /></div>
                     <h1 className="username md:block hidden font-extrabold text-2xl text-white">Harsh Saini</h1>
                     <div className="role md:block hidden">Web Developer</div>
 

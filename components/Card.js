@@ -52,9 +52,10 @@ const Card = (props) => {
           <Link href={props.git} target="_blank" >
             <div className="repo bg-blue-500 text-white border-black border-[1px] w-fit h-fit rounded-md px-2">Git Repo</div>
           </Link>
-          {/* <Link href={props.git} target="_blank" >
+          {props.demo && <Link href={props.demo} target="_blank" >
           <div className="demo bg-blue-500 text-white border-black border-[1px] w-fit h-fit rounded-md px-2">Live Demo</div>
-          </Link> */}
+          </Link>}
+          
         </div>
       </div>
     </>
