@@ -12,7 +12,7 @@ const page = () => {
           
           <h2 className=' text-[32px] text-black mb-2'>Skills and Interests</h2>
           <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Languages&#x3a; </span><p> I have a strong foundation in JavaScript, HTML, and CSS. I love creating clean, efficient code that brings designs to life.</p></div>
-          <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Frameworks&#x3a;</span><p>I&apos;sve worked with React and Next.js, and I&apos;m always eager to explore new technologies.</p></div>
+          <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Frameworks&#x3a;</span><p>I&apos;ve worked with React and Next.js, and I&apos;m always eager to explore new technologies.</p></div>
           <div className="lang text-lg  mb-10"><span className='text-black mr-3  '>Responsive Design&#x3a;</span><p>Crafting user-friendly interfaces that work seamlessly across devices is my jam. </p></div>
 
 

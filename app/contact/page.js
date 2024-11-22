@@ -10,7 +10,7 @@ const page = () => {
         <Contactcard link="https://x.com/home?lang=en-in" name="Twitter" username="&#x40;harshsaini84411" image="twitter.svg" follow="true"/>
         <Contactcard link="https://www.linkedin.com/in/harsh-saini-869466247/" name="Linkedin" username="&#x40;harshsaini" image="linkedin.svg" follow="true"/>
         <Contactcard link="https://github.com/harshsaini2375" name="Github" username="&#x40;harshsaini2375" image="github.svg" follow="true"/>
-        <Contactcard link="" name="Gmail" username="&#x40;harshsaini2375" image="gmail.svg" follow="false"/>
+        {/* <Contactcard link="" name="Gmail" username="&#x40;harshsaini2375" image="gmail.svg" follow="false"/> */}
     </div>
     </div>
   
