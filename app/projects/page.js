@@ -15,11 +15,19 @@ const page = () => {
           <Card image="/urlimage.png" name='URL Shortener' description="This simply helps you to shorten your long URLs." tech={['Next.js', "MongoDB"]} git="https://github.com/harshsaini2375/URL-Shortner" demo="https://url-shortner-umber-zeta.vercel.app/" />
 
 
-          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'javascript']} git="https://github.com/harshsaini2375/netflix-clone" demo=" https://playspotifysong.freewebhostmost.com/" />
+          <Card image="/linktreeimg.png" name='Linktree' description=" A Linktree clone acts as a centralized hub for all your important links, whether its your social media profiles, portfolio, blog, or other web destinations." tech={['Next.js', "MongoDB"]} git="https://github.com/harshsaini2375/linktree" demo="https://linktree-five-coral.vercel.app/" />
+
+
+
+
+          
+          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'javascript']} git="https://github.com/harshsaini2375/netflix-clone" demo="" />
+          {/* https://playspotifysong.freewebhostmost.com/ */}
           
           <Card image="https://i.pinimg.com/564x/73/1e/30/731e300a3c273cc5c2209a61ecd0d5c8.jpg" name='Password Manager' description="A secure solution for storing and managing passwords. Users can save login credentials and access them when needed." tech={['React', 'Tailwind', 'MongoDB', 'Express']} git="https://github.com/harshsaini2375/Password-manager" demo="" />
 
           <Card image="https://i.pinimg.com/564x/eb/ff/07/ebff0700a6135c66021a3e4560c97b36.jpg" name='To-do-list' description="A task management application that helps users organize their daily activities. Features include adding tasks and marking items as complete." tech={['React', 'Tailwind', 'React icons']} git="https://github.com/harshsaini2375/To-do-list-" demo="" />
+
 
 
 
