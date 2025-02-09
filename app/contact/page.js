@@ -53,21 +53,21 @@ const page = () => {
           <div className="form mt-5 md:mt-11 w-[90vw] md:w-[45vw] h-[72vh] ">
             <div className="name flex justify-between ">
               <div className='w-[47%] h-fit'>
-                <span className='text-base md:text-lg' >Name <span className='text-xl text-red-500'>*</span></span>
+                <span className='text-base md:text-lg' >Name <span className='text-xl text-red-500'> &#42;</span></span>
                 <input type="text" value={form.user} onChange={(e) => { handleform(e) }} name='user' className='mt-0 md:mt-2 pl-5 w-full h-12 border-2 border-slate-300 rounded-lg' />
               </div>
               <div className='w-[47%] h-fit'>
-                <span className='text-base md:text-lg' >Email <span className='text-xl text-red-500'>*</span></span>
+                <span className='text-base md:text-lg' >Email <span className='text-xl text-red-500'> &#42;</span></span>
                 <input type="email" name='email' value={form.email} onChange={(e) => { handleform(e) }} className='mt-0 md:mt-2 pl-5  w-full h-12 border-2 border-slate-300 rounded-lg' />
               </div>
             </div>
             <div className="subject  mt-4 md:mt-7">
-              <span className='text-base md:text-lg' >Subject <span className='text-xl text-red-500'>*</span></span>
+              <span className='text-base md:text-lg' >Subject <span className='text-xl text-red-500'> &#42;</span></span>
               <input type="text" name='subject' value={form.subject} onChange={(e) => { handleform(e) }} className='mt-0 md:mt-2 pl-5  w-full h-12 border-2 border-slate-300 rounded-lg' />
             </div>
 
             <div className="message  mt-4 md:mt-7">
-              <span className='text-base md:text-lg' >Message <span className='text-xl text-red-500'>*</span></span>
+              <span className='text-base md:text-lg' >Message <span className='text-xl text-red-500'> &#42;</span></span>
               
               <textarea type="text" name='message' value={form.message} onChange={(e) => { handleform(e) }} className='resize-none mt-2 px-5 py-2  w-full h-[25vh] border-2 border-slate-300 rounded-lg' ></textarea>
             </div>
