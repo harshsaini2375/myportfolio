@@ -4,7 +4,6 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { usePathname } from "next/navigation";
 
@@ -16,13 +15,13 @@ const Sidebar = () => {
     const [about, setabout] = useState(false)
     const [contact, setcontact] = useState(false)
 
-    let router = useRouter()
+   
     let path = usePathname()
 
 
     useEffect(() => {      
         forfocus(path);
-    }, [])
+    }, [path])
 
 
     const forfocus = (value) => {

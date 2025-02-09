@@ -7,8 +7,9 @@ import { useRouter } from 'next/navigation'
 
 
 const page = () => {
+  
 
-  const [form, setform] = useState({ user: "", email: "", subject: "", message: "" })
+  const [form, setform] = useState({})
 
   const handleform = (e) => {
     setform({ ...form, [e.target.name]: e.target.value })
