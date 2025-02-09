@@ -14,7 +14,6 @@ const Page = () => {
     setform({ ...form, [e.target.name]: e.target.value })
   }
 
-  const notify = () => toast('Wow so easy !');
 
   const handleSubmit = async (e) => {
 
@@ -35,7 +34,7 @@ const Page = () => {
     redirect: "follow"
   };
 
-  await fetch("http://localhost:3000/api/submit", requestOptions)
+  await fetch(`${process.env.NEXT_PUBLIC_HOST}api/submit`, requestOptions)
   .then((response) => response.text())
   .then((result) => console.log(result))
   .catch((error) => console.error(error));
