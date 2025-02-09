@@ -6,9 +6,9 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 
-const page = () => {
+const Page = () => {
 
-  const [form, setform] = useState({})
+  const [form, setform] = useState({ user: "", email: "", subject: "", message: "" })
 
   const handleform = (e) => {
     setform({ ...form, [e.target.name]: e.target.value })
@@ -91,4 +91,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
