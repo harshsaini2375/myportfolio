@@ -7,7 +7,6 @@ import { useRouter } from 'next/navigation'
 
 
 const page = () => {
-  
 
   const [form, setform] = useState({})
 
