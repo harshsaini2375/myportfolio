@@ -6,25 +6,27 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
+import { usePathname } from "next/navigation";
+
 
 
 const Sidebar = () => {
-    const [home, sethome] = useState(true)
+    const [home, sethome] = useState(false)
     const [project, setproject] = useState(false)
     const [about, setabout] = useState(false)
     const [contact, setcontact] = useState(false)
 
     let router = useRouter()
+    let path = usePathname()
 
-    useEffect(() => {
-        if (home == true) {
-            router.push('/');
-        }
+
+    useEffect(() => {      
+        forfocus(path);
     }, [])
 
 
     const forfocus = (value) => {
-        if (value == 'valhome') {
+        if (value == 'valhome' || value == '/') {
             sethome(true)
             setproject(false)
             setabout(false)
@@ -32,21 +34,21 @@ const Sidebar = () => {
             console.log('home clicked');
 
         }
-        else if (value == 'valproject') {
+        else if (value == 'valproject'  || value == '/projects') {
             sethome(false)
             setproject(true)
             setabout(false)
             setcontact(false)
             console.log('project clicked');
         }
-        else if (value == 'valabout') {
+        else if (value == 'valabout'  || value == '/about') {
             sethome(false)
             setproject(false)
             setabout(true)
             setcontact(false)
             console.log('about clicked');
         }
-        else if (value == 'valcontact') {
+        else if (value == 'valcontact'  || value == '/contact') {
             sethome(false)
             setproject(false)
             setabout(false)
@@ -64,9 +66,9 @@ const Sidebar = () => {
     return (
         <>
             <div className="left  rounded-3xl border-[5px] md:border-[10px] border-white bg-[#618dea]  text-[#cedcf8] w-[100vw] md:w-1/4 h-[70px] md:h-[99vh] fixed top-0 left-0 md:block  flex">
-
-                <div className="up md:py-12 w-fit md:w-full md:mr-0 mr-3  md:flex flex-col justify-center items-center ">
-                    <div className=" circle border-[1px]  border-[#cedcf8] h-12 w-12 md:h-24 md:w-24 rounded-full ml-[6px] mt-[6px] md:m-0 md:mb-3 overflow-hidden relative"><Image   className='h-fit w-fit object-contain' objectFit='cover' layout='fill' src="/newpp.jpg" alt="profilepic" /></div>
+        
+                         <div className="up md:py-12 w-fit md:w-full md:mr-0 mr-3  md:flex flex-col justify-center items-center ">
+                    <div className=" circle border-[1px]  border-[#cedcf8] h-12 w-12 md:h-24 md:w-24 rounded-full ml-[6px] mt-[6px] md:m-0 md:mb-3 overflow-hidden relative"><Image   className='h-fit w-fit object-contain' fill style={{ objectFit: 'cover' }} src="/newpp.jpg" alt="profilepic" /></div>
                     <h1 className="username md:block hidden font-extrabold text-2xl text-white">Harsh Saini</h1>
                     <div className="role md:block hidden">Web Developer</div>
 
@@ -106,6 +108,7 @@ const Sidebar = () => {
                         </div>
                     </Link>
                 </div>
+                    
             </div>
 
         </>
