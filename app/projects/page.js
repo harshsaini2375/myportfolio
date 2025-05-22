@@ -12,7 +12,7 @@ const page = () => {
 
           <Card image="/ecommerce.png" name='E-Commerce website ' description="Developed a feature-rich e-commerce platform integrating secure Razorpay payments for seamless transactions , ensuring responsive user experience." tech={['Next.js', 'MongoDB', 'NextAuth.js']} git="https://github.com/harshsaini2375/Ecommerce" demo="https://ecommerce-mu-nine-53.vercel.app/" />
 
-          <Card image="/getmeachaiimage.png" name='Get-me-a-Chai' description="A Patreon Clone where you can support your favorite creators. With this platform, users can seamlessly make payments to creators they admire." tech={['Next.js', 'MongoDB', 'NextAuth.js']} git="https://github.com/harshsaini2375/Get-me-a-chai" demo="https://get-me-a-chai-tau.vercel.app/" />
+          <Card image="/patreon.png" name='Get-me-a-Chai' description="A Patreon Clone where you can support your favorite creators. With this platform, users can seamlessly make payments to creators they admire." tech={['Next.js', 'MongoDB', 'NextAuth.js']} git="https://github.com/harshsaini2375/Get-me-a-chai" demo="https://get-me-a-chai-tau.vercel.app/" />
 
           <Card image="/passwordmanager.png" name='Password Manager' description="A secure solution for storing and managing passwords. Users can save login credentials and access them when needed." tech={['React', 'Tailwind', 'MongoDB', 'Express']} git="https://github.com/harshsaini2375/Password-manager" demo="https://password-manager-kappa-three.vercel.app/" />
 
