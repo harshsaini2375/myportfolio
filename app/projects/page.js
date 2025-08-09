@@ -23,7 +23,7 @@ const page = () => {
 
           <Card image="/todolist.png" name='To-do-list' description="A task management application that helps users organize their daily activities. Features include adding tasks and marking items as complete." tech={['ReactJS', 'Tailwind']} git="https://github.com/harshsaini2375/To-do-list-" demo="https://to-do-list-ten-lemon-96.vercel.app/" />
 
-          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'javaScript']} git="https://github.com/harshsaini2375/netflix-clone" demo="" />
+          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'JavaScript']} git="https://github.com/harshsaini2375/netflix-clone" demo="" />
           {/* https://playspotifysong.freewebhostmost.com/ */}
 
         </div>
