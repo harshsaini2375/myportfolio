@@ -56,9 +56,9 @@ const Page = () => {
 
   return (
     <>
-      <div className='cmain flex flex-col items-center  h-fit md:h-screen w-screen md:w-[74%] md:absolute left-[379px] pt-11 md:pt-0 px-4 md:px-0 pb-5 md:pb-0'>
+      <div className='cmain  flex flex-col items-center  h-fit md:h-screen w-screen md:w-[74%] md:absolute left-[379px] pt-11 md:pt-0 px-4 md:px-0 pb-5 md:pb-0'>
 
-        <h1 className='text-center md:pb-5  md:p-10 pt-7 md:pt-5 text-4xl md:text-5xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 '>Contact Me</h1>
+        <h1 className='  w-fit text-center md:pb-5  md:p-10 pt-7 md:pt-5 text-4xl md:text-5xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 '>Contact Me</h1>
         <p className='w-screen md:w-[60%] text-center text-base md:text-2xl text-slate-500 mt-2 md:mt-0'>If you like to chat about a project or just have question, please fill in the form below. I aim to get back within 2 days.</p>
 
         <form onSubmit={(e) => { handleSubmit(e) }}>
@@ -89,11 +89,14 @@ const Page = () => {
           </div>
         </form>
 
+        <h1 className=' font-montserrat font-bold  mt-0 md:mt-16 mb-5 text-lg  '>Let&apos;s Connect Further</h1>
 
-        <div className="contactme  mt-0 md:mt-16 w-full h-fit md:h-[82vh] flex-wrap flex md:pl-[14vw]   gap-5 md:gap-10">
+
+        <div className="contactme  w-full h-fit md:h-[82vh] flex-wrap flex md:pl-[14vw]   gap-5 md:gap-10">
           {/* <Contactcard link="https://x.com/home?lang=en-in" name="Twitter" username="&#x40;harshsaini84411" image="twitter.svg" follow="true" /> */}
           <Contactcard link="https://linkedin.com/in/harshsaini-dev" name="Linkedin" username="&#x40;harshsaini" image="linkedin.svg" follow="true" />
-          <Contactcard link="https://github.com/harshsaini2375" name="Github" username="&#x40;harshsaini2375" image="github.svg" follow="true" />
+          <Contactcard link="https://github.com/harshsaini2375" name="Github" username="@harshsaini2375" image="github.svg" follow="true" />
+          <Contactcard link="mailto:harshsaini2375@gmail.com" name="Gmail" username="harshsaini2375@gmail.com" image="gmail.svg" follow="false" />
 
         </div>
 
