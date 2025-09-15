@@ -10,11 +10,13 @@ const page = () => {
         <h1 className='  w-fit p-10 pb-5 md:pb-10 text-4xl md:text-5xl font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 '>My Projects!</h1>
         <div className="projects md:pb-0 pb-10 w-full mb-5 h-fit px-3 md:px-12 justify-center md:justify-start flex gap-5 md:gap-10 flex-wrap ">
 
+          <Card image="/collaborativeEditor.png" name='Collaborative Editor' description="Live editor featuring WebSockets for real-time co-editing and AI integration for smart text enhancements. Includes document-specific chat." tech={['NextJS', 'MongoDB', 'NextAuthJS', 'websocket']} git="https://github.com/harshsaini2375/collaborative-editor-with-AI" demo="https://collaborative-editor-with-ai.vercel.app/" />
+
           <Card image="/ecommerce.png" name='E-Commerce website ' description="Developed a feature-rich e-commerce platform integrating secure Razorpay payments for seamless transactions , ensuring responsive user experience." tech={['NextJS', 'MongoDB', 'NextAuthJS']} git="https://github.com/harshsaini2375/Ecommerce" demo="https://ecommerce-mu-nine-53.vercel.app/" />
 
           <Card image="/patreon.png" name='Get-me-a-Chai' description="A Patreon Clone where you can support your favorite creators. With this platform, users can seamlessly make payments to creators they admire." tech={['NextJS', 'MongoDB', 'NextAuthJS']} git="https://github.com/harshsaini2375/Get-me-a-chai" demo="https://get-me-a-chai-tau.vercel.app/" />
 
-          <Card image="/passwordmanager.png" name='Password Manager' description="A secure solution for storing and managing passwords. Users can save login credentials and access them when needed." tech={['ReactJS', 'Tailwind', 'MongoDB', 'ExpressJS']} git="https://github.com/harshsaini2375/Password-manager" demo="https://password-manager-kappa-three.vercel.app/" />
+          <Card image="/passwordmanager.png" name='Password Manager' description="A secure solution for storing and managing passwords. Users can save login credentials and access them when needed." tech={['ReactJS', 'Tailwind', 'ExpressJS']} git="https://github.com/harshsaini2375/Password-manager" demo="https://password-manager-kappa-three.vercel.app/" />
 
 
           <Card image="/linktreeimg.png" name='Linktree' description=" A Linktree clone acts as a centralized hub for all your important links, whether its your social media profiles, portfolio, blog, or other web destinations." tech={['NextJS', "MongoDB"]} git="https://github.com/harshsaini2375/linktree" demo="https://linktree-five-coral.vercel.app/" />
