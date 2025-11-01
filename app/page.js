@@ -22,7 +22,7 @@ export default function Home() {
             
           <SplitText
                 text="Hey, I'm Harsh "
-                className="h-[12vh] font-montserrat  text-3xl font-extrabold text-[#ff686b] dark:text-white md:text-5xl lg:text-6xl text-center"
+                className="h-[12vh] font-montserrat  text-xl font-extrabold text-[#ff686b] dark:text-white md:text-5xl lg:text-6xl text-center"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -35,7 +35,7 @@ export default function Home() {
               // onLetterAnimationComplete={handleAnimationComplete}
               />
 
-              <p className="text-xl w-full md:w-[30vw] h-fit font-montserrat">I love to build Projects related to Web & Problem Solving.  Exploring the possibilities .</p>
+              <p className="md:text-xl text-base w-full md:w-[30vw] h-fit font-montserrat">I love to build Projects related to Web & Problem Solving.  Exploring the possibilities .</p>
             </div>
             
             <div className="istphoto w-full md:mt-0  mt-5 md:w-[30vw] h-[36vh] md:h-[45vh]  rounded-xl overflow-hidden"><Image width={900} height={900} className=" h-fit w-fit object-cover" src="/webdev.gif" alt="randompic" unoptimized /></div>

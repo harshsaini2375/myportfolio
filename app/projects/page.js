@@ -4,10 +4,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
-   
+    <> 
       <div className="pmain pt-10 md:pt-0 w-screen md:w-3/4 md:absolute left-[375px] ">
         <h1 className='  w-fit p-10 pb-5 md:pb-10 text-4xl md:text-5xl font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 '>My Projects!</h1>
+
         <div className="projects md:pb-0 pb-10 w-full mb-5 h-fit px-3 md:px-12 justify-center md:justify-start flex gap-5 md:gap-10 flex-wrap ">
 
           <Card image="/collaborativeEditor.png" name='Collaborative Editor' description="Live editor featuring WebSockets for real-time co-editing and AI integration for smart text enhancements. Includes document-specific chat." tech={['NextJS', 'MongoDB', 'NextAuthJS', 'websocket']} git="https://github.com/harshsaini2375/collaborative-editor-with-AI" demo="https://collaborative-editor-with-ai.vercel.app/" />

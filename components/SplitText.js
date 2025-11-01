@@ -137,7 +137,7 @@ const SplitText = ({
   return (
     <div
       ref={ref}
-      className={`split-parent overflow-hidden flex justify-center items-center whitespace-normal ${className}`}
+      className={`split-parent overflow-hidden flex md:justify-center justify-start items-center whitespace-normal ${className}`}
       style={{
         textAlign,
         wordWrap: "break-word",
@@ -145,8 +145,9 @@ const SplitText = ({
     >
       {/* {text} */}
       <div>Hey, I&#39;m Harsh&#33;</div> 
-      <Image src={"/Handgif.gif"} height={70} width={70}
-              alt="handgif" unoptimized className="delayed-gif"  style={{opacity:0}} />
+      <div className="relative w-[40px] h-[40px] md:w-[5rem] md:h-[5rem]">
+      <Image src={"/Handgif.gif"} fill={true}
+              alt="handgif" unoptimized className="delayed-gif object-contain"  style={{opacity:0}} /></div>
     </div>
   );
 };

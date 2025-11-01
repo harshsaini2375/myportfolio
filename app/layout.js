@@ -32,8 +32,6 @@ export default function RootLayout({ children }) {
     <html lang="en" >
       <body  className={`${geistSans.variable} ${montserrat_init.variable} ${geistMono.variable} antialiased`} >
       <div className="main  relative md:flex w-[99vw]  h-[85vh] md:h-[99vh]">
-        
-
       <Sidebar/>
         {children}
         </div>
