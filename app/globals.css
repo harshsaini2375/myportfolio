@@ -39,3 +39,13 @@ body {
   stroke: black; /* Set the stroke color */
   stroke-width: 3; /* Adjust the stroke width for boldness */
 }
+
+html {
+  font-size: 100%; /* This makes 1rem = 16px by default in most browsers */
+}
+
+/* ===== Desktop First Sizing (Default) ===== */
+body {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6; /* For readability */
+}

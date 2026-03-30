@@ -11,10 +11,13 @@ const page = () => {
           <p className="ist  text-2xl text-gray-500 mb-10 " >Hello&#33; I&apos;m Harsh Saini, a passionate full-stack web developer with expertise in modern JavaScript ecosystems. I hold a Bachelor&#39;s degree in Computer Applications from Maharshi Dayanand University, Rohtak.  🎓</p>
           
           <h2 className=' text-[32px] text-black mb-2'>Skills & Craft</h2>
-          <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Frontend&#x3a; </span><p>I build dynamic interfaces with React.js, Next.js, TypeScript, and Redux, styled beautifully with Tailwind CSS and vanilla HTML/CSS. Performance and accessibility are my top priorities.</p></div>
-          <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Backend &amp; databases&#x3a;</span><p>I design scalable backends using Node.js, Express.js, and work with both SQL (MySQL) and NoSQL (MongoDB) databases to create robust full-stack applications.</p></div>
-          <div className="lang text-lg  mb-2"><span className='text-black mr-3  '>Core Foundations&#x3a;</span><p>My problem-solving skills are honed with C++, Data Structures &amp; Algorithms (DSA), and OOP principles - essential for writing efficient code.</p></div>
-          <div className="lang text-lg  mb-10"><span className='text-black mr-3  '>DevOps & Tools&#x3a;</span><p>I use Git/GitHub for version control and deploy projects on Vercel for seamless CI/CD. </p></div>
+          <div className="lang text-lg  mb-2"><h3 className='text-black mr-3  '>Frontend&#x3a; </h3><p>I build dynamic interfaces with React.js, Next.js, TypeScript, and Redux, styled beautifully with Tailwind CSS and vanilla HTML/CSS. Performance and accessibility are my top priorities.</p></div>
+
+          <div className="lang text-lg  mb-2"><h3 className='text-black mr-3  '>Backend &amp; databases&#x3a;</h3><p>I design scalable backends using Node.js, Express.js, PHP, and work with both SQL (MySQL) and NoSQL (MongoDB) databases to create robust full-stack applications.</p></div>
+
+          <div className="lang text-lg  mb-2"><h3 className='text-black mr-3  '>Core Foundations&#x3a;</h3><p>My problem-solving skills are honed with C++, Data Structures &amp; Algorithms (DSA), and OOP principles - essential for writing efficient code.</p></div>
+
+          <div className="lang text-lg  mb-10"><h3 className='text-black mr-3  '>DevOps & Tools&#x3a;</h3><p>I use Git/GitHub for version control and deploy projects on Vercel for seamless CI/CD. </p></div>
 
 
           <h2 className=' text-[32px] text-black mb-2'>Beyond Code</h2>

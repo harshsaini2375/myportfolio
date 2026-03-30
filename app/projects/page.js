@@ -12,9 +12,11 @@ const page = () => {
 
           <Card image="/collaborativeEditor.png" name='Collaborative Editor' description="Live editor featuring WebSockets for real-time co-editing and AI integration for smart text enhancements. Includes document-specific chat." tech={['NextJS', 'MongoDB', 'NextAuthJS', 'websocket']} git="https://github.com/harshsaini2375/collaborative-editor-with-AI" demo="https://collaborative-editor-with-ai.vercel.app/" />
 
+          <Card image="/carrentalapp.png" name='Car Rental App' description="A web app connecting customers and rental agencies, enabling car listings, bookings, and rental management." tech={['HTML','CSS' , 'php', 'MySql']} git="https://github.com/harshsaini2375/car-rental-app" demo="https://harsh.free.nf/" />
+
           <Card image="/ecommerce.png" name='E-Commerce website ' description="Developed a feature-rich e-commerce platform integrating secure Razorpay payments for seamless transactions , ensuring responsive user experience." tech={['NextJS', 'MongoDB', 'NextAuthJS']} git="https://github.com/harshsaini2375/Ecommerce" demo="https://ecommerce-mu-nine-53.vercel.app/" />
 
-          <Card image="/patreon.png" name='Get-me-a-Chai' description="A Patreon Clone where you can support your favorite creators. With this platform, users can seamlessly make payments to creators they admire." tech={['NextJS', 'MongoDB', 'NextAuthJS']} git="https://github.com/harshsaini2375/Get-me-a-chai" demo="https://get-me-a-chai-tau.vercel.app/" />
+          {/* <Card image="/patreon.png" name='Get-me-a-Chai' description="A Patreon Clone where you can support your favorite creators. With this platform, users can seamlessly make payments to creators they admire." tech={['NextJS', 'MongoDB', 'NextAuthJS']} git="https://github.com/harshsaini2375/Get-me-a-chai" demo="https://get-me-a-chai-tau.vercel.app/" />
 
           <Card image="/passwordmanager.png" name='Password Manager' description="A secure solution for storing and managing passwords. Users can save login credentials and access them when needed." tech={['ReactJS', 'Tailwind', 'ExpressJS']} git="https://github.com/harshsaini2375/Password-manager" demo="https://password-manager-kappa-three.vercel.app/" />
 
@@ -25,7 +27,8 @@ const page = () => {
 
           <Card image="/todolist.png" name='To-do-list' description="A task management application that helps users organize their daily activities. Features include adding tasks and marking items as complete." tech={['ReactJS', 'Tailwind']} git="https://github.com/harshsaini2375/To-do-list-" demo="https://to-do-list-ten-lemon-96.vercel.app/" />
 
-          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'JavaScript']} git="https://github.com/harshsaini2375/netflix-clone" demo="" />
+          <Card image="https://i.pinimg.com/736x/0f/30/0d/0f300da5c3b0cce0718db1590342f6ee.jpg" name='Spotify-Clone' description="A frontend Spotify clone that replicates the popular music streaming service and features real time song playback. " tech={['HTML', 'CSS', 'JavaScript']} git="https://github.com/harshsaini2375/netflix-clone" demo="" /> */}
+
           {/* https://playspotifysong.freewebhostmost.com/ */}
 
         </div>

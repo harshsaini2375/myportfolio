@@ -47,14 +47,14 @@ export default function Home() {
         </div>
 
         <div className="myintro w-full md:w-[75vw] mt-10 px-4 md:px-10">
-          <h1 className="text-3xl mb-3 w-fit font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700  ">Intro</h1>
+          <h2 className="text-3xl mb-3 w-fit font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700  ">Intro</h2>
           <p className="font-montserrat text-lg">I am a MERN stack developer with a passion for building full-stack applications from the ground up. As a self-taught programmer, I thrive on turning ideas into functional, user-friendly web apps using modern JavaScript technologies. While I am early in my journey, I have already built projects like an e-commerce website and a linktree app, sharpening my skills in both frontend design and backend logic. I am obsessed with clean code, learning new frameworks. Lets connect and grow together in this ever-evolving tech world.</p>
         </div>
 
         <div className="myskills w-full md:w-[75vw] mt-8 h-fit px-4 md:px-10 ">
 
-          <h1 className="text-3xl mb-3 w-fit font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 ">Skills</h1>
-          <h2 className="skills_heading text-center font-montserrat text-sm md:text-lg my-5 font-bold">My key expertises and technical proficiencies</h2>
+          <h2 className="text-3xl mb-3 w-fit font-extrabold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-sky-300  to-sky-700 ">Skills</h2>
+          <h3 className="skills_heading text-center font-montserrat text-sm md:text-lg my-5 font-bold">My key expertises and technical proficiencies</h3>
 
           <div className="istline flex gap-5 flex-wrap justify-center items-center mb-5">
             <Skillbox img="ReactJS" text="ReactJS" />
@@ -66,6 +66,7 @@ export default function Home() {
             <Skillbox img="TypeScript" text="TypeScript" />
           </div>
           <div className="2line flex gap-5 justify-center flex-wrap items-center mb-5">
+            <Skillbox img="c++" text="c++" />
             <Skillbox img="Tailwind" text="Tailwind" />
             <Skillbox img="ExpressJS" text="ExpressJS" />
             <Skillbox img="NodeJS" text="NodeJS" />
@@ -73,6 +74,8 @@ export default function Home() {
             <Skillbox img="MongoDB" text="MongoDB" />
           </div>
           <div className="3line flex gap-5 flex-wrap justify-center items-center mb-5">
+            <Skillbox img="docker" text="docker" />
+            <Skillbox img="figma" text="figma" />
             <Skillbox img="Git" text="Git" />
             <Skillbox img="github" text="GitHub" />
             <Skillbox img="vercel" text="Vercel" />

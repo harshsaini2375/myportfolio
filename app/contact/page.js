@@ -89,7 +89,7 @@ const Page = () => {
           </div>
         </form>
 
-        <h1 className=' font-montserrat font-bold  mt-0 md:mt-16 mb-5 text-lg  '>Let&apos;s Connect Further</h1>
+        <h2 className=' font-montserrat font-bold  mt-0 md:mt-16 mb-5 text-lg  '>Let&apos;s Connect Further</h2>
 
 
         <div className="contactme  w-full h-fit md:h-[82vh] flex-wrap flex md:pl-[14vw]   gap-2 md:gap-10">
